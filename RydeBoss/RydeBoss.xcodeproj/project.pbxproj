@@ -15,6 +15,11 @@
 		EB5759D515B0C99E000673E5 /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5759D415B0C99E000673E5 /* RBAppDelegate.m */; };
 		EB5759D815B0C99E000673E5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5759D615B0C99E000673E5 /* MainStoryboard.storyboard */; };
 		EB5759DB15B0C99E000673E5 /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5759DA15B0C99E000673E5 /* RBViewController.m */; };
+		EB5759E915B0CB11000673E5 /* RBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5759E815B0CB11000673E5 /* RBNavigationController.m */; };
+		EB5759EB15B0CEB5000673E5 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB5759EA15B0CEB5000673E5 /* background.jpg */; };
+		EB5759EF15B0D2C8000673E5 /* RBHelpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5759EE15B0D2C8000673E5 /* RBHelpTableViewCell.m */; };
+		EB5759F215B0D388000673E5 /* RBHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5759F115B0D388000673E5 /* RBHelpTableViewController.m */; };
+		EB5759F515B0D3E3000673E5 /* RBDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5759F415B0D3E3000673E5 /* RBDestinationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,15 @@
 		EB5759D715B0C99E000673E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EB5759D915B0C99E000673E5 /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
 		EB5759DA15B0C99E000673E5 /* RBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
+		EB5759E715B0CB11000673E5 /* RBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBNavigationController.h; sourceTree = "<group>"; };
+		EB5759E815B0CB11000673E5 /* RBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBNavigationController.m; sourceTree = "<group>"; };
+		EB5759EA15B0CEB5000673E5 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		EB5759ED15B0D2C8000673E5 /* RBHelpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBHelpTableViewCell.h; sourceTree = "<group>"; };
+		EB5759EE15B0D2C8000673E5 /* RBHelpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBHelpTableViewCell.m; sourceTree = "<group>"; };
+		EB5759F015B0D388000673E5 /* RBHelpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBHelpTableViewController.h; sourceTree = "<group>"; };
+		EB5759F115B0D388000673E5 /* RBHelpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBHelpTableViewController.m; sourceTree = "<group>"; };
+		EB5759F315B0D3E3000673E5 /* RBDestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBDestinationViewController.h; sourceTree = "<group>"; };
+		EB5759F415B0D3E3000673E5 /* RBDestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBDestinationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +94,8 @@
 				EB5759D315B0C99E000673E5 /* RBAppDelegate.h */,
 				EB5759D415B0C99E000673E5 /* RBAppDelegate.m */,
 				EB5759D615B0C99E000673E5 /* MainStoryboard.storyboard */,
-				EB5759D915B0C99E000673E5 /* RBViewController.h */,
-				EB5759DA15B0C99E000673E5 /* RBViewController.m */,
+				EB5759E215B0CA0F000673E5 /* Custom UI Components */,
+				EB5759E115B0C9DF000673E5 /* View Controllers */,
 				EB5759CB15B0C99E000673E5 /* Supporting Files */,
 			);
 			path = RydeBoss;
@@ -96,6 +110,47 @@
 				EB5759D215B0C99E000673E5 /* RydeBoss-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB5759E115B0C9DF000673E5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB5759F315B0D3E3000673E5 /* RBDestinationViewController.h */,
+				EB5759F415B0D3E3000673E5 /* RBDestinationViewController.m */,
+				EB5759F015B0D388000673E5 /* RBHelpTableViewController.h */,
+				EB5759F115B0D388000673E5 /* RBHelpTableViewController.m */,
+				EB5759E715B0CB11000673E5 /* RBNavigationController.h */,
+				EB5759E815B0CB11000673E5 /* RBNavigationController.m */,
+				EB5759EC15B0CEBC000673E5 /* images */,
+				EB5759F615B0D425000673E5 /* Old */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EB5759E215B0CA0F000673E5 /* Custom UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB5759ED15B0D2C8000673E5 /* RBHelpTableViewCell.h */,
+				EB5759EE15B0D2C8000673E5 /* RBHelpTableViewCell.m */,
+			);
+			name = "Custom UI Components";
+			sourceTree = "<group>";
+		};
+		EB5759EC15B0CEBC000673E5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB5759EA15B0CEB5000673E5 /* background.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		EB5759F615B0D425000673E5 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				EB5759D915B0C99E000673E5 /* RBViewController.h */,
+				EB5759DA15B0C99E000673E5 /* RBViewController.m */,
+			);
+			name = Old;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +206,7 @@
 			files = (
 				EB5759CF15B0C99E000673E5 /* InfoPlist.strings in Resources */,
 				EB5759D815B0C99E000673E5 /* MainStoryboard.storyboard in Resources */,
+				EB5759EB15B0CEB5000673E5 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +220,10 @@
 				EB5759D115B0C99E000673E5 /* main.m in Sources */,
 				EB5759D515B0C99E000673E5 /* RBAppDelegate.m in Sources */,
 				EB5759DB15B0C99E000673E5 /* RBViewController.m in Sources */,
+				EB5759E915B0CB11000673E5 /* RBNavigationController.m in Sources */,
+				EB5759EF15B0D2C8000673E5 /* RBHelpTableViewCell.m in Sources */,
+				EB5759F215B0D388000673E5 /* RBHelpTableViewController.m in Sources */,
+				EB5759F515B0D3E3000673E5 /* RBDestinationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
